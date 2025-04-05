@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/ci-python-lab.git'
+                git 'https://github.com/boumaged/lab2.git'
             }
         }
         stage('Install Dependencies') {
